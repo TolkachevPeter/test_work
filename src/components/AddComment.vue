@@ -24,8 +24,8 @@ export default {
                     id: Date.now(),
                     text: this.text,
                 }
-
             this.$emit('add-comment', newComment)
+            this.text = ""
             }
         }
     }
